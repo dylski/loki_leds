@@ -46,7 +46,7 @@ if __name__ == '__main__':
 
   sim = loki.Loki(config)
   leds = mfl.MappedFairyLights(num_lights=150,
-      calib_file='bedroom.npy')
+      calib_file='calib/bedroom.npy')
       # calib_file='office_vertical_calib.npy')
 
   while(True):
