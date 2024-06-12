@@ -60,6 +60,7 @@ if __name__ == '__main__':
     leds = mfl.MappedFairyLights(num_lights=150,
         calib_file='calib/bedroom.npy')
         # calib_file='office_vertical_calib.npy')
+    leds.blank()
 
   force_on = False
 

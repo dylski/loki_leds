@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/bin/screen -dmS Loki /bin/bash /home/pi/Projects/loki_leds/launch_artwork.sh
